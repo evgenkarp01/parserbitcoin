@@ -1,0 +1,64 @@
+.table{
+    border-bottom: 1px solid #d3d3d3;
+   
+    &__content{
+        padding-top: 10px;
+    }
+    
+    &__top{
+        background: linear-gradient(to right, #262467 0%,#26a7e0 100%), -webkit-linear-gradient(left, #262467 0%,#26a7e0 100%);
+        padding: 20px 22px;    
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        color: white;
+    }
+    &__top-text{
+        font-size: 1.2em;
+    }
+
+    &__top-title{
+        display: flex;
+    }
+    &__top-left{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__top-right{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 20px;
+    }
+    &__top-Payouts{
+        margin-right: 25px;
+    }
+    &__top-link{
+        color: white;
+        font-size: 1em;
+        transition: .3s;
+    }
+    &__top-link:hover{
+        color: #262467;
+    }
+    &__img{
+        width: 11%;
+    }
+  }
+  td{
+      text-align: center;
+      width: 100px;
+  }
+  .fa-dollar-sign{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    color: #26a7e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
