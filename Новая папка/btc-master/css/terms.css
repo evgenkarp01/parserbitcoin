@@ -1,0 +1,13 @@
+.terms {
+  padding: 20px 0px; }
+  .terms__title {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #221f1f;
+    font-size: 2em; }
+  .terms__text {
+    font-size: 1.10em;
+    line-height: 26px;
+    font-weight: 300;
+    color: #777777; }

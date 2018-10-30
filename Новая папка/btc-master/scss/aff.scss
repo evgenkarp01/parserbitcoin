@@ -1,0 +1,26 @@
+.aff{
+    padding-top: 20px;
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    &__title{
+        color: #221f1f;
+        font-weight: bold;
+        
+    }
+    &__desk{
+        padding-bottom: 20px;
+        color: #777777;
+        font-weight: bold;
+    }
+    &__title-two{
+        color: #221f1f;
+        font-weight: bold;
+    }
+}
